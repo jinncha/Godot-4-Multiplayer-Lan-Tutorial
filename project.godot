@@ -11,13 +11,9 @@ config_version=5
 [application]
 
 config/name="multiplayer Lan Tutorial"
-run/main_scene="res://multiplayerScene.tscn"
+run/main_scene="res://multiplayer_scene.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
-
-[autoload]
-
-GameManager="*res://GameManager.gd"
 
 [dotnet]
 
